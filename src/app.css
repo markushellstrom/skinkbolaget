@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+/* Ensure fuchsia colors are available for gradients */
+@layer utilities {
+	.from-fuchsia-200 {
+		--tw-gradient-from: #fdf4ff;
+		--tw-gradient-to: rgb(253 244 255 / 0);
+		--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+	}
+	.to-fuchsia-400 {
+		--tw-gradient-to: #e879f9;
+	}
+}
