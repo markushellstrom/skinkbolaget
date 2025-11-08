@@ -21,6 +21,14 @@ export enum GameType {
 export const games: Game[] = [
 	{
 		player: Player.ERIKSSON,
+		type: GameType.REDUCED,
+		score: 10,
+		invested: 810,
+		win: 0,
+		date: '2025-11-01'
+	},
+	{
+		player: Player.ERIKSSON,
 		type: GameType.MATHEMATIC,
 		score: 9,
 		invested: 864,
